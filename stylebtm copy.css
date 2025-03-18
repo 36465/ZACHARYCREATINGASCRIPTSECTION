@@ -16,7 +16,7 @@
    
     margin-left: 10px;
       clip-path: circle(50% at 50% 50%);
-     animation: geeksbtm 5s infinite;
+     animation: geeks 5s infinite;
               animation-play-state: paused;
     margin-top: -20px;
   
@@ -45,35 +45,35 @@
     overflow: hidden;
           }
             
-          @keyframes geeksbtm {
+          @keyframes geeks {
              0% {
-                    margin-left: 100px;
-               margin-top: 0px;
+                    margin-left: 50px;
+               margin-top: -20px;
                 width: 70px;
     height: 70px;
    
               }
               20% {
-                       margin-left: 30px;
-                margin-top: -20px;
-                 width: 70px;
-    height: 70px;
+                       margin-left: 170px;
+                margin-top: 0px;
+                 width: 80px;
+    height: 80px;
               
             
             }
              35% {
-                      margin-left: 175px;
-               margin-top: 50px;
-                   width: 70px;
-    height: 70px;
+                      margin-left: 190px;
+               margin-top: -20px;
+                   width: 80px;
+    height: 80px;
                
                  
             }
                 100% {
-                     margin-left: 30px;
-                    margin-top: 25px;
-                      width: 70px;
-    height: 70px;
+                     margin-left: 210px;
+                    margin-top: -20px;
+                      width: 80px;
+    height: 80px;
             
               }
           }
