@@ -1,0 +1,90 @@
+
+.wayoutsideb {
+    width: 800px;
+  
+  }
+  .outsideb {
+    display: inline-block;
+     height: 300px;
+      width: 300px;
+    clip-path: circle(50% at 50% 50%);
+     
+  }
+  
+  .box3b {
+    background: white;
+   
+    margin-left: 10px;
+      clip-path: circle(50% at 50% 50%);
+     animation: geeks 5s infinite;
+              animation-play-state: paused;
+    margin-top: -20px;
+  
+   
+    
+  }
+  .box2b {
+    height: 150px;
+    line-height: 150px;  
+  }
+  .boxb {
+    position: relative;
+      width: 300px;
+    top:150px;
+     height: 150px;
+          font-size: 40px;
+           text-align: center;
+     left: 0px;
+               top:0px;
+                width: 500px;
+                   background: #ddd;
+              
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    overflow: hidden;
+          }
+            
+          @keyframes geeks {
+             0% {
+                    margin-left: 50px;
+               margin-top: -20px;
+                width: 70px;
+    height: 70px;
+   
+              }
+              20% {
+                       margin-left: 170px;
+                margin-top: 0px;
+                 width: 80px;
+    height: 80px;
+              
+            
+            }
+             35% {
+                      margin-left: 190px;
+               margin-top: -20px;
+                   width: 80px;
+    height: 80px;
+               
+                 
+            }
+                100% {
+                     margin-left: 210px;
+                    margin-top: -20px;
+                      width: 80px;
+    height: 80px;
+            
+              }
+          }
+  
+    .box3b.horizTranslateb {
+              animation-play-state: running;
+          }
+            
+  
+  /* makes it so it starts and stops when you hover over the div */
+  
+     .box3b:hover {
+              animation-play-state: running;
+          }
