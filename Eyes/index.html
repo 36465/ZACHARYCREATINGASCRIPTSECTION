@@ -1,17 +1,14 @@
 <!--
-  CONTEXT:
-  Everything (Except for index.html) has a SEPERATE style sheet for the top and bottom animations.
-  The top one having no special ending suffix in the file/class naming, while the bottom one has the -btm suffix.
-
+  
   ISSUES
 
   When you toggle one of the animations, the subsiquent one will require you to click it twice for it to change state.
   Zero clue how to fix
+
+  (This applys to all of the seperate animations)
   
 -->
 
-
-<!-- Top pair of eyes -->
 
 
 <head>
@@ -39,18 +36,7 @@
       </div>
     </div>
     </div>
-  <script src="script.js"></script>
-  </body>
-
-
-<!-- Bottom pair of eyes -->
-
-
-  <head>
-    <link rel="stylesheet" href="stylebtm.css">
-      </head>
-  <body>  
-      <button class='toggleButtonbtm' onclick='toggleTransitionbtm()'>Toggle</button>
+        <button class='toggleButtonbtm' onclick='toggleTransitionbtm()'>Toggle</button>
     <p>
             Hover over the GeeksforGeeks 
             to run the animation.
@@ -71,5 +57,5 @@
         </div>
       </div>
       </div>
-    <script src="scriptbtm.js"></script>
+    <script src="script.js"></script>
     </body>
