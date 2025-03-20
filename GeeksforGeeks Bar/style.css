@@ -1,0 +1,35 @@
+.box {
+    position: relative;
+    animation: geeks 1s infinite;
+    animation-play-state: paused;
+height: 80px;
+font-size: 80px;
+
+}
+  
+@keyframes geeks {
+   0% {
+        left: 0px;
+         background: red;
+     color:yellow;
+     top:0px;
+        
+    }
+    100% {
+        left: 500px;
+      background: green;
+         color:orange;
+      top: 100px;
+    }
+}
+
+.box.horizTranslate {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+.box:hover {
+    animation-play-state: running;
+}

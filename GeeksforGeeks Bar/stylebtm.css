@@ -1,0 +1,35 @@
+.boxbtm {
+    position: relative;
+    animation: geeksbtm 1s infinite;
+    animation-play-state: paused;
+height: 80px;
+font-size: 80px;
+
+}
+  
+@keyframes geeksbtm {
+   0% {
+        left: 0px;
+         background: red;
+     color:yellow;
+     top:0px;
+        
+    }
+    100% {
+        left: 500px;
+      background: green;
+         color:orange;
+      top: 100px;
+    }
+}
+
+.boxbtm.horizTranslatebtm {
+    animation-play-state: running;
+}
+  
+
+/* makes it so it starts and stops when you hover over the div */
+
+.boxbtm:hover {
+    animation-play-state: running;
+}
