@@ -20,10 +20,10 @@ var toggleTransition = function() {
 var boxOnebtm = document.getElementsByClassName('box3btm')[0];
 var boxTwobtm = document.getElementsByClassName('box3btm')[1];
 
-var running = false;
+var runningbtm = false;
 
 var toggleTransitionbtm = function() {
-  if(!running) 
+  if(!runningbtm) 
   { 
     boxOnebtm.classList.add('horizTranslatebtm');
     boxTwobtm.classList.add('horizTranslatebtm');
@@ -33,6 +33,6 @@ var toggleTransitionbtm = function() {
     
   }  
 
-  running = !running;
+  runningbtm = !runningbtm;
 }
 

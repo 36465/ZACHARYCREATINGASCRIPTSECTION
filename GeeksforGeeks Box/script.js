@@ -13,15 +13,15 @@ var toggleTransition = function() {
 }
 
 var boxOnebtm = document.getElementsByClassName('boxbtm')[0];
-var running = false;
+var runningbtm = false;
 
 var toggleTransitionbtm = function() {
-  if(!running) 
+  if(!runningbtm) 
   { 
     boxOnebtm.classList.add('horizTranslatebtm');
   } else {
     boxOnebtm.classList.remove('horizTranslatebtm'); 
   }  
 
-  running = !running;
+  runningbtm = !runningbtm;
 }
